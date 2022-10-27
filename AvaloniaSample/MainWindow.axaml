@@ -8,26 +8,20 @@
         d:DesignHeight="450"
         d:DesignWidth="800"
         mc:Ignorable="d">
-    <Grid RowDefinitions="Auto,16,*">
-        <ComboBox x:Name="combobox">
-            <ComboBoxItem Content="Horizontal" />
-            <ComboBoxItem Content="Vertical" />
-        </ComboBox>
-        <ScrollViewer Grid.Row="2">
-            <ItemsRepeater x:Name="repeater" Margin="8">
-                <ItemsRepeater.ItemTemplate>
-                    <DataTemplate>
-                        <Border Padding="8"
-                                HorizontalAlignment="Stretch"
-                                VerticalAlignment="Stretch"
-                                Background="{Binding ColorBrush}"
-                                BorderBrush="Gray"
-                                BorderThickness="2">
-                            <TextBlock Text="{Binding ColorHexValue}" />
-                        </Border>
-                    </DataTemplate>
-                </ItemsRepeater.ItemTemplate>
-            </ItemsRepeater>
-        </ScrollViewer>
-    </Grid>
+    <ScrollViewer Grid.Row="2">
+        <ItemsRepeater x:Name="repeater" Margin="8">
+            <ItemsRepeater.ItemTemplate>
+                <DataTemplate>
+                    <Border Padding="8"
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Stretch"
+                            Background="{Binding ColorBrush}"
+                            BorderBrush="Gray"
+                            BorderThickness="2">
+                        <TextBlock Text="{Binding ColorHexValue}" />
+                    </Border>
+                </DataTemplate>
+            </ItemsRepeater.ItemTemplate>
+        </ItemsRepeater>
+    </ScrollViewer>
 </Window>
