@@ -8,7 +8,7 @@
         d:DesignHeight="450"
         d:DesignWidth="800"
         mc:Ignorable="d">
-    <ScrollViewer Grid.Row="2">
+    <ScrollViewer Grid.Row="2" HorizontalScrollBarVisibility="Disabled">
         <ItemsRepeater x:Name="repeater" Margin="8">
             <ItemsRepeater.ItemTemplate>
                 <DataTemplate>
