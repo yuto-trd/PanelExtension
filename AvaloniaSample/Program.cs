@@ -2,7 +2,7 @@
 using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
 
-using PanelExntension;
+using PanelExtension;
 
 using System;
 

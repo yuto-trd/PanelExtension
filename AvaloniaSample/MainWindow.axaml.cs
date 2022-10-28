@@ -2,7 +2,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Media;
 
-using PanelExntension;
+using PanelExtension;
 
 using System.Collections.Generic;
 
@@ -13,12 +13,6 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
-        repeater.Layout = new HorizontalGridLayout()
-        {
-            MinItemWidth = 240,
-            RowSpacing = 8,
-            ColumnSpacing = 8,
-        };
 
         repeater.Items = CreateColorItems();
 #if DEBUG

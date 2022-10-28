@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PanelExntension.Avalonia", "PanelExntension.Avalonia\PanelExntension.Avalonia.csproj", "{8CDA010D-EE72-4A3E-AA13-8315683AACEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PanelExtension.Avalonia", "PanelExtension.Avalonia\PanelExtension.Avalonia.csproj", "{8CDA010D-EE72-4A3E-AA13-8315683AACEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaSample", "AvaloniaSample\AvaloniaSample.csproj", "{89B2E16B-BBDB-4E4B-8D21-60E32FD5B163}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaSample", "AvaloniaSample\AvaloniaSample.csproj", "{89B2E16B-BBDB-4E4B-8D21-60E32FD5B163}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

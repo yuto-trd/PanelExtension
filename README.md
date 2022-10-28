@@ -10,8 +10,15 @@ This library adds HorizontalGridLayout, a layout that automatically wraps and st
 2. Set HorizontalGridLayout from C#/XAML to ItemsRepeater.Layout.
 ``` xaml
 <!-- MainWindow.axaml -->
-<ScrollViewer Grid.Row="2" HorizontalScrollBarVisibility="Disabled">
+<ScrollViewer xmlns:panelx="using:PanelExtension"
+              Grid.Row="2"
+              HorizontalScrollBarVisibility="Disabled">
     <ItemsRepeater x:Name="repeater" Margin="8">
+        <ItemsRepeater.Layout>
+            <panelx:HorizontalGridLayout MinItemWidth="240"
+                                         RowSpacing="8"
+                                         ColumnSpacing="8" />
+        </ItemsRepeater.Layout>
         <ItemsRepeater.ItemTemplate>
             <DataTemplate>
                 <Border Padding="8"

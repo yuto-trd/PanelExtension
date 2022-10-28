@@ -1,7 +1,7 @@
 ﻿using Avalonia;
 using Avalonia.Layout;
 
-namespace PanelExntension;
+namespace PanelExtension;
 
 public class HorizontalGridLayout : NonVirtualizingLayout
 {

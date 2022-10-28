@@ -16,6 +16,6 @@
         <PackageReference Include="XamlNameReferenceGenerator" Version="1.3.4" />
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\PanelExntension.Avalonia\PanelExntension.Avalonia.csproj" />
+      <ProjectReference Include="..\PanelExtension.Avalonia\PanelExtension.Avalonia.csproj" />
     </ItemGroup>
 </Project>
