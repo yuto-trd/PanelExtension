@@ -14,7 +14,7 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
 
-        repeater.Items = CreateColorItems();
+        repeater.ItemsSource = CreateColorItems();
 #if DEBUG
         this.AttachDevTools();
 #endif

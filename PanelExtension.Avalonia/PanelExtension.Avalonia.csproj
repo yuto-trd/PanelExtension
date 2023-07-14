@@ -8,14 +8,14 @@
         <RepositoryUrl>https://github.com/indigo-san/PanelExtension</RepositoryUrl>
         <PackageId>PanelExtension</PackageId>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <Version>1.0.0-preview5</Version>
-        <AssemblyVersion>1.0.0.5</AssemblyVersion>
+        <Version>1.0.0</Version>
+        <AssemblyVersion>1.0.0.6</AssemblyVersion>
         <Authors>https://github.com/indigo-san</Authors>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Avalonia" Version="11.0.0-preview5" />
-        <PackageReference Include="Avalonia.Controls.ItemsRepeater" Version="11.0.0-preview5" />
+        <PackageReference Include="Avalonia" Version="11.0.0" />
+        <PackageReference Include="Avalonia.Controls.ItemsRepeater" Version="11.0.0" />
     </ItemGroup>
 
 </Project>
