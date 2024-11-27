@@ -3,7 +3,7 @@
 [![Nuget](https://img.shields.io/nuget/vpre/PanelExtension?label=PanelExtension%20%28nuget%29)](https://www.nuget.org/packages/PanelExtension/)
 
 This library adds HorizontalGridLayout, a layout that automatically wraps and stretches.
-![Git](https://raw.githubusercontent.com/indigo-san/PanelExtension/main/Images/sample.gif)
+![Git](https://raw.githubusercontent.com/yuto-trd/PanelExtension/main/Images/sample.gif)
 
 ## Usage
 1. Download the PanelExtension package and add it to your project.

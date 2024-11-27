@@ -5,12 +5,12 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
 
-        <RepositoryUrl>https://github.com/indigo-san/PanelExtension</RepositoryUrl>
+        <RepositoryUrl>https://github.com/yuto-trd/PanelExtension</RepositoryUrl>
         <PackageId>PanelExtension</PackageId>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <Version>1.0.0</Version>
         <AssemblyVersion>1.0.0.6</AssemblyVersion>
-        <Authors>https://github.com/indigo-san</Authors>
+        <Authors>https://github.com/yuto-trd</Authors>
     </PropertyGroup>
 
     <ItemGroup>
